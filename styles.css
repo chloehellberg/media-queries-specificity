@@ -1,0 +1,47 @@
+.digital p a {
+  font-weight: bold;
+}
+
+
+.analog p a {
+  font-style: italic;
+}
+.digital p {
+  background-color: red;
+}
+
+.analog p {
+  background-color: yellow;
+}
+
+h2 {
+  font-size: 10px;
+}
+
+.countries h2 {
+  font-style: italic;
+}
+
+@media screen and (min-width: 770px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+ 
+
+  @media screen and (max-width: 500px) {
+    body {
+      background-color: teal; 
+      color: white; 
+    }
+
+
+  
